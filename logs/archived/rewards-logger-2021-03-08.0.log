@@ -1,0 +1,18 @@
+2021-03-08 17:41:58,169 INFO org.springframework.boot.StartupInfoLogger [main] Starting RewardApp using Java 15.0.1 on DESKTOP-3G4AKPF with PID 8608 (E:\Projects\application\application\target\classes started by LENOVO in E:\Projects\application\application)
+2021-03-08 17:41:58,180 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-08 17:42:01,161 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-08 17:42:01,169 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:42:01,177 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-08 17:42:01,209 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-08 17:42:01,337 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-08 17:42:01,337 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2972 ms
+2021-03-08 17:42:01,406 INFO org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory [main] Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2021-03-08 17:42:03,014 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 17:42:04,779 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-08 17:42:04,819 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-08 17:42:04,847 INFO org.springframework.boot.StartupInfoLogger [main] Started RewardApp in 7.666 seconds (JVM running for 9.82)
+2021-03-08 17:42:07,693 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 17:42:07,701 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-03-08 17:42:07,701 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2021-03-08 17:42:07,829 INFO com.rewards.dao.TransactionDaoImpl [http-nio-8080-exec-1] Result from Database is [DailyTransaction{id=6, userId='alice', amount=51.0, txnDate=2021-01-08}, DailyTransaction{id=7, userId='alice', amount=51.0, txnDate=2021-03-08}, DailyTransaction{id=8, userId='alice', amount=51.0, txnDate=2021-03-08}]
+2021-03-08 17:42:07,845 INFO com.rewards.controller.TransactionController [http-nio-8080-exec-1] Results are RewardsResult{monthlyRewardsList=[MonthlyRewards{month=January 2021, rewards=1}, MonthlyRewards{month=March 2021, rewards=54}], totalRewards=55}
